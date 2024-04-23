@@ -5,12 +5,14 @@ This project is a FullStack Todo Application built using Node.js, Express, and v
  It allows users to register, login, add, update, delete tasks, and save them persistently.
 
 Features
+
 User registration and authentication.
 Adding, updating, and deleting tasks.
 Saving tasks persistently using JSON files.
 Responsive and user-friendly interface.
 
 Installation
+
 1) Clone the repository:
  git clone https://github.com/danialtrody/To-Do-Website.git
 
@@ -21,10 +23,12 @@ Installation
    npm install
 
 Usage
+
 Start the server:
  node server
 
-js
+Java script
+
 2. Open your browser and navigate to `http://localhost:3000`.
 3. Register a new account or login with existing credentials.
 4. Add, update, or delete tasks.

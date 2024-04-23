@@ -4,14 +4,27 @@ FullStack Todo Application
 This project is a FullStack Todo Application built using Node.js, Express, and vanilla JavaScript.
  It allows users to register, login, add, update, delete tasks, and save them persistently.
 
-Features
 
+
+## http://localhost:3000/register:                                                                       
+![image](https://github.com/danialtrody/To-Do-Website/assets/141449225/4fe97d25-a679-407e-ad0c-76dd559e2662)
+## http://localhost:3000/login:
+![image](https://github.com/danialtrody/To-Do-Website/assets/141449225/fa4b0383-b4fe-4e73-9d0a-5c5be91a21b9)
+## http://localhost:3000/todos?email=danialtrody@gmail.com&username=Danial:
+![image](https://github.com/danialtrody/To-Do-Website/assets/141449225/c3c68623-fafa-42c1-88c8-9b510714d56a)
+
+
+
+
+
+
+## Features
 User registration and authentication.
 Adding, updating, and deleting tasks.
 Saving tasks persistently using JSON files.
 Responsive and user-friendly interface.
 
-Installation
+## Installation
 
 1) Clone the repository:
  git clone https://github.com/danialtrody/To-Do-Website.git
@@ -22,19 +35,20 @@ Installation
 3) Install dependencies:
    npm install
 
-Usage
+## Usage
 
 Start the server:
  node server
 
-Java script
+## Java script
 
-2. Open your browser and navigate to `http://localhost:3000`.
-3. Register a new account or login with existing credentials.
-4. Add, update, or delete tasks.
-5. Tasks will be saved persistently.
+1. Open your browser and navigate to `http://localhost:3000`.
+2. Register a new account or login with existing credentials.
+3. Add, update, or delete tasks.
+4. Tasks will be saved persistently.
 
 ## File Structure
+
 - **server.js**: Main server file containing the backend logic.
 - **Client**: Directory containing client-side HTML, CSS, and JavaScript files.
 - **RegisterUser.html**: HTML file for user registration.

@@ -30,7 +30,7 @@ Responsive and user-friendly interface.
  git clone https://github.com/danialtrody/To-Do-Website.git
 
 2) Navigate to the project directory:
- cd ToDo
+ cd To-Do-Website
 
 3) Install dependencies:
    npm install

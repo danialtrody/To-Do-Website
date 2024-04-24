@@ -28,7 +28,7 @@ Responsive and user-friendly interface.
 
 1) Clone the repository:
 
-   git clone https://github.com/danialtrody/To-Do-Website.git
+   git clone https://github.com/danialtrody/ToDo.git
 
 2) Navigate to the project directory:
 

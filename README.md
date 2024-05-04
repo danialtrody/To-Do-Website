@@ -41,7 +41,8 @@ Responsive and user-friendly interface.
 ## Usage
 
 Start the server:
- node server
+
+   node server
 
 ## Java script
 

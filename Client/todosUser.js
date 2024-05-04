@@ -1,5 +1,5 @@
 // client/todosUser.js
-
+sessionStorage.clear();
 const addButton = document.getElementById("addTask");
 const taskInput = document.getElementById("taskInput");
 const taskList = document.getElementById("tasklist");
@@ -14,6 +14,10 @@ const email = urlParams.get('email');
 // Set the username and email in the HTML
 document.getElementById('username').textContent = username;
 document.getElementById('email').textContent = email;
+
+
+sessionStorage.setItem("username",username);
+sessionStorage.setItem("email",email);
 
 
 document.addEventListener("DOMContentLoaded", function() {
@@ -139,6 +143,7 @@ function handleLogoutButtonClick() {
     fetch('/logout')
         .then(response => {
             if (response.redirected) {
+                sessionStorage.clear();
                 window.location.href = response.url;
             }
         })

@@ -46,7 +46,7 @@ Start the server:
 
 ## Java script
 
-1. Open your browser and navigate to `http://localhost:3000`.
+1. Open your browser and navigate to `http://localhost:3000/register`.
 2. Register a new account or login with existing credentials.
 3. Add, update, or delete tasks.
 4. Tasks will be saved persistently.

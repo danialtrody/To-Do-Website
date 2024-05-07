@@ -70,6 +70,8 @@ Start the server:
 - **fs**: File system module for reading and writing files.
 - **path**: Module for working with file and directory paths.
 
+## Contribution
+Contributions to the project are welcome. If you have any suggestions or improvements, feel free to open an issue or submit a pull request on GitHub.
 
 
 
